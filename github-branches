@@ -1,0 +1,17 @@
+$ git branch -a
+  bug-fix-revert
+  bug-fix-typo
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/bug-fix-revert
+  remotes/origin/bug-fix-typo
+  remotes/origin/main
+
+$ git branch -a -vv
+  bug-fix-revert                99b222f [origin/bug-fix-revert] Revert "Fix typo in README.md footer year"
+  bug-fix-typo                  fc91c6f [origin/bug-fix-typo] Fix typo in README.md footer year
+* main                          fc91c6f [origin/main] Fix typo in README.md footer year
+  remotes/origin/HEAD           -> origin/main
+  remotes/origin/bug-fix-revert 99b222f Revert "Fix typo in README.md footer year"
+  remotes/origin/bug-fix-typo   fc91c6f Fix typo in README.md footer year
+  remotes/origin/main           fc91c6f Fix typo in README.md footer year
